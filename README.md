@@ -1,4 +1,4 @@
-# Subgrid
+# Real-life subgrid
 
 This simple codebase shows why subgrid is useful.
 
