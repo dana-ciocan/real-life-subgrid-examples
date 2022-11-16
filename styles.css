@@ -10,6 +10,7 @@ body {
 
 .container {
   background-color: #ccc;
+  max-width: 100wv;
 }
 
 .card {
