@@ -1,12 +1,20 @@
 .container {
   padding: 1rem;
-  height: 21rem;
+  height: 19rem;
+}
+
+.center-container {
+  text-align: center;
 }
 
 .card {
   display: inline-block;
-  padding: 1rem;
-  width: 23.5%;
+  width: 24%;
+  margin-right: 1rem;
+}
+
+.card:last-of-type {
+  margin-right: 0;
 }
 
 .title {
@@ -15,7 +23,7 @@
 }
 
 .description {
-  height: 7rem;
+  min-height: 7rem;
   margin-bottom: 1rem;
 }
 
