@@ -10,6 +10,7 @@ body {
 
 .container {
   background-color: #ccc;
+  padding: 1rem;
   max-width: 100wv;
 }
 
