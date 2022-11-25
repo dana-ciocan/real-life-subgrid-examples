@@ -8,7 +8,7 @@ Imagine that your brief is to create a set of four content cards, each with a he
 
 There are four examples in this codebase:
 
-- `1-set-height` shows how you would create a set of content cards using "magic numbers" that quickly break as soon as the content gets too long
+- `1-set-height` shows how you would create a set of content cards using "magic numbers" that quickly break as soon as the content gets too long - you don't ever want to use this kind of brittle implementation on a production site
 - `2-flex-box` shows how you would create the same set of content cards using flexbox, but this is still not ideal
 - `3-grid` using grid to create the content cards is a lot easier and this feels like we're on the right track
 - `4-subgrid` aligning the content in the cards is suddenly a lot easier! Subgrid is intended to solve exactly this sort of problem.
