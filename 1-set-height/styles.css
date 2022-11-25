@@ -1,5 +1,5 @@
 .container {
-  min-height: 79rem;
+  height: 79rem;
 }
 
 .center-container {
@@ -18,7 +18,7 @@
 }
 
 .title {
-  height: 2rem;
+  min-height: 2rem;
   margin-bottom: 1rem;
 }
 
@@ -35,11 +35,11 @@
 
 @media (min-width: 50rem) {
   .container {
-    min-height: 39rem;
+    height: 41rem;
   }
 
   .card {
-    display: inline-block;
+    float: left;
     width: 48%;
     margin: 1rem 0 0 1rem;
   }
@@ -55,7 +55,7 @@
 
 @media (min-width: 75rem) {
   .container {
-    min-height: 19rem;
+    height: 20rem;
   }
 
   .card {
