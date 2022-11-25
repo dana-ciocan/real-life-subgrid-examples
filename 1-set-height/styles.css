@@ -3,14 +3,13 @@
 }
 
 .center-container {
-  text-align: center;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
 
 .card {
   margin-top: 1rem;
-  width: 98%;
+  width: 100%;
 }
 
 .card:first-of-type {
@@ -19,14 +18,10 @@
 
 .title {
   min-height: 2rem;
-  margin-bottom: 1rem;
 }
 
 .description {
-  min-height: 7rem;
-  margin-bottom: 1rem;
-  padding-top: 1rem;
-  margin-top: 2rem;
+  min-height: 10rem;
 }
 
 .footer {
@@ -40,7 +35,7 @@
 
   .card {
     float: left;
-    width: 48%;
+    width: calc(50% - 0.5rem);
     margin: 1rem 0 0 1rem;
   }
 
@@ -56,11 +51,10 @@
 @media (min-width: 75rem) {
   .container {
     height: 20rem;
-    padding-left: 6rem;
   }
 
   .card {
-    width: 23.5%;
+    width: calc(25% - 0.75rem);
     margin: 0 0 0 1rem;
   }
 
